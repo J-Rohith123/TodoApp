@@ -15,7 +15,7 @@ function App() {
       if(single.status) return single})
       return temp
      }) :  setDisplayThings(th =>  { let temp=things.filter(single=>{
-      if(!single.status) return single})
+      if(!single.status) return single}) 
       return temp
      })  )
   })
